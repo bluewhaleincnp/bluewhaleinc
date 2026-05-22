@@ -1,0 +1,15 @@
+# Blue Whale Inc. Pvt. Ltd. — robots.txt
+# https://bluewhaleinc.com.np/
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths (add as needed)
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location
+Sitemap: https://bluewhaleinc.com.np/sitemap.xml
+
+# Crawl-delay hint (optional — some bots respect this)
+Crawl-delay: 5
