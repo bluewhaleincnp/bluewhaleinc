@@ -420,7 +420,7 @@
 
 html {
   scroll-behavior: smooth;
-  -webkit-text-size-adjust: 100%;
+  /* -webkit-text-size-adjust: 100%; */
   font-size: 16px;
   overflow-x: hidden;
 }
@@ -615,7 +615,7 @@ svg {
   inset-inline: 0;
   z-index: 1000;
   background: rgba(255, 255, 255, .95);
-  backdrop-filter: blur(10px);
+  /* backdrop-filter: blur(10px); */
   border-bottom: 1px solid transparent;
   transition: border-color var(--transition), box-shadow var(--transition), background var(--transition);
 }
@@ -833,7 +833,8 @@ svg {
 .hero-content {
   position: relative;
   z-index: 2;
-  padding-block: clamp(3rem, 8vw, 5rem);
+  padding-top: clamp(1rem, 3vw, 2rem);
+  padding-bottom: clamp(3rem, 8vw, 5rem);
   max-width: 850px;
   margin-inline: auto;
   display: flex;
