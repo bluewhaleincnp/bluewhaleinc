@@ -505,6 +505,10 @@ svg {
   border-color: rgba(255, 255, 255, .15);
 }
 
+.section-header.reveal {
+  --text-color: white;
+}
+
 .section-heading {
   font-family: var(--font-display);
   font-weight: 700;
@@ -1511,6 +1515,10 @@ svg {
 }
 
 /* ── CONTACT ──────────────────────────────────────────────── */
+.footer-links address.footer-col {
+  font-style: normal;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
